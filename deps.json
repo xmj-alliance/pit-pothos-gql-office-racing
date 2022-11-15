@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "src/": "./src/",
+    "./": "./",
+    "std/": "https://deno.land/std@0.135.0/",
+
+    "@contrawork/graphql-helix/": "https://cdn.jsdelivr.net/gh/contrawork/graphql-helix@master/packages/deno/",
+    "@hayes/pothos": "https://cdn.jsdelivr.net/gh/hayes/giraphql/packages/deno/packages/core/mod.ts",
+    "oak": "https://deno.land/x/oak@v10.5.1/mod.ts",
+
+    "https://cdn.skypack.dev/graphql@16.0.0-experimental-stream-defer.5?dts": "https://cdn.skypack.dev/graphql@v16.2.0?dts",
+    "https://cdn.skypack.dev/graphql?dts": "https://cdn.skypack.dev/graphql@v16.2.0?dts"
+  }
+}
